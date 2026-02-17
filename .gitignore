@@ -9,7 +9,6 @@ env/
 *.csv
 
 # ─── Vídeos (demasiado grandes para Git) ─────────────────────────────────────
-videos/input/
 videos/output/
 *.mp4
 *.avi
