@@ -1,0 +1,57 @@
+# ─── Entornos virtuales ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+*.env
+
+# ─── Datos generados (CSVs de tracking) ──────────────────────────────────────
+*.csv
+
+# ─── Vídeos (demasiado grandes para Git) ─────────────────────────────────────
+videos/input/
+videos/output/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ─── Modelos YOLOv8 (descarga automática con ultralytics) ────────────────────
+*.pt
+*.onnx
+*.engine
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── IDEs y editores ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs y temporales ────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+runs/
