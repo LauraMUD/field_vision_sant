@@ -10,10 +10,6 @@ env/
 
 # ─── Vídeos (demasiado grandes para Git) ─────────────────────────────────────
 videos/output/
-*.mp4
-*.avi
-*.mov
-*.mkv
 
 # ─── Modelos YOLOv8 (descarga automática con ultralytics) ────────────────────
 *.pt
